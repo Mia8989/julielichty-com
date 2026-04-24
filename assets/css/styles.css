@@ -967,8 +967,8 @@ input[type="submit"]:hover {
     right: auto;
     transform: translateX(-50%);
     height: auto;
-    width: 100%;
-    max-width: 100%;
+    width: 115%;
+    max-width: none;
     max-height: none;
     object-fit: contain;
     object-position: bottom center;
