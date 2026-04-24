@@ -858,8 +858,8 @@ input[type="submit"]:hover {
 }
 .slider-dots .dot.is-active { background: #74B5AF; }
 @media (max-width: 700px) {
-  .testimonial-slide { padding: 0 24px; }
-  .slider-btn { font-size: 2.2rem; padding: 0 6px; }
+  .testimonial-slide { padding: 0 8px; }
+  .slider-btn { font-size: 2.2rem; padding: 0 4px; }
 }
 .testimonial-original {
   background: #fff;
@@ -889,8 +889,8 @@ input[type="submit"]:hover {
   margin: 0 auto;
 }
 @media (max-width: 700px) {
-  .testimonial-section { padding: 64px 20px; }
-  .testimonial-original { padding: 48px 28px 40px; }
+  .testimonial-section { padding: 64px 8px; }
+  .testimonial-original { padding: 48px 20px 40px; }
 }
 
 /* ---------- Legacy navy hero (kept in case other pages use it) ---------- */
