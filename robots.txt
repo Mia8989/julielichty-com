@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /_source_docs/
+
+Sitemap: https://julielichty.com/sitemap.xml
