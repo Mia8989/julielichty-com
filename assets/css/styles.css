@@ -150,6 +150,8 @@ section { padding: 80px 0; }
 .brand-wordmark:hover { text-decoration: none; opacity: .85; }
 @media (max-width: 700px) {
   .brand-wordmark img { height: 36px; }
+  .container { padding: 0 12px; }
+  .site-header .container { padding: 0 4px 0 4px; }
 }
 .nav-toggle {
   display: none;
