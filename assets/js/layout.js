@@ -12,8 +12,8 @@
   }
 
   await Promise.all([
-    inject('site-header', '/_partials/header.html'),
-    inject('site-footer', '/_partials/footer.html'),
+    inject('site-header', '/julielichty-com/_partials/header.html'),
+    inject('site-footer', '/julielichty-com/_partials/footer.html'),
   ]);
 
   // Active nav (matches pathname)
