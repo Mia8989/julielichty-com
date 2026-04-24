@@ -1178,7 +1178,7 @@ input[type="submit"]:hover {
     gap: 16px;
   }
   .nav-list.is-open { display: flex; }
-  .about-me-card { margin: 120px 4px 0; padding: 150px 16px 48px; }
+  .about-me-card { margin: 120px 0 0; padding: 150px 12px 48px; }
   .footer-grid { grid-template-columns: 1fr; gap: 32px; }
   .footer-legal { flex-direction: column; gap: 8px; text-align: center; }
   .banner-card { max-width: 72%; padding: 24px 20px; }
