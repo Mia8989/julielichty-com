@@ -972,7 +972,7 @@ input[type="submit"]:hover {
     height: auto;
     width: 130%;
     max-width: none;
-    max-height: none;
+    max-height: 100%;
     object-fit: contain;
     object-position: bottom center;
   }
