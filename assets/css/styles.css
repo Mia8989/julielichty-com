@@ -955,20 +955,20 @@ input[type="submit"]:hover {
 @media (max-width: 700px) {
   .hero-navy {
     grid-template-columns: 1fr 1fr;
-    min-height: 360px;
+    min-height: 600px;
   }
-  .hero-navy .hero-text { padding: 24px 12px 24px 20px; }
+  .hero-navy .hero-text { padding: 24px 12px 24px 20px; align-self: center; }
   .hero-navy .hero-stack { font-size: clamp(1.6rem, 7vw, 2.4rem); }
-  .hero-navy .hero-image { min-height: 360px; }
+  .hero-navy .hero-image { min-height: 600px; }
   .hero-navy .hero-image img {
     position: absolute;
     bottom: 0;
     left: 50%;
     right: auto;
-    transform: translateX(-50%);
-    height: auto;
-    width: 100%;
-    max-height: 100%;
+    transform: translateX(-55%);
+    height: 95%;
+    width: auto;
+    max-width: none;
     object-fit: contain;
     object-position: bottom center;
   }
