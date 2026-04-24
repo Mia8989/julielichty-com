@@ -962,7 +962,7 @@ input[type="submit"]:hover {
   .hero-navy .hero-image { min-height: 320px; }
   .hero-navy .hero-image img {
     position: absolute;
-    bottom: 0;
+    bottom: 60px;
     left: 50%;
     right: auto;
     transform: translateX(-50%);
