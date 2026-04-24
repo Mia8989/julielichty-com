@@ -966,15 +966,15 @@ input[type="submit"]:hover {
   .hero-navy .hero-image img {
     position: absolute;
     bottom: 0;
-    left: 50%;
-    right: auto;
-    transform: translateX(-50%);
+    right: 0;
+    left: auto;
+    transform: none;
     height: auto;
-    width: 115%;
+    width: 125%;
     max-width: none;
     max-height: none;
     object-fit: contain;
-    object-position: bottom center;
+    object-position: bottom right;
   }
 }
 
