@@ -970,7 +970,7 @@ input[type="submit"]:hover {
     right: auto;
     transform: translateX(-50%);
     height: auto;
-    width: 130%;
+    width: 150%;
     max-width: none;
     max-height: none;
     object-fit: contain;
