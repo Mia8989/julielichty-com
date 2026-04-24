@@ -958,11 +958,11 @@ input[type="submit"]:hover {
 @media (max-width: 700px) {
   .hero-navy {
     grid-template-columns: 1fr 1fr;
-    min-height: 340px;
+    min-height: 300px;
   }
   .hero-navy .hero-text { padding: 24px 12px 24px 20px; align-self: center; }
   .hero-navy .hero-stack { font-size: clamp(2rem, 8.5vw, 3rem); line-height: 1.35; }
-  .hero-navy .hero-image { min-height: 340px; }
+  .hero-navy .hero-image { min-height: 300px; }
   .hero-navy .hero-image img {
     position: absolute;
     bottom: 0;
@@ -970,7 +970,7 @@ input[type="submit"]:hover {
     right: auto;
     transform: translateX(-50%);
     height: auto;
-    width: 150%;
+    width: 115%;
     max-width: none;
     max-height: none;
     object-fit: contain;
