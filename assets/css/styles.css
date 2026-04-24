@@ -1175,6 +1175,7 @@ input[type="submit"]:hover {
   .footer-legal { flex-direction: column; gap: 8px; text-align: center; }
   .banner-card { max-width: 72%; padding: 24px 20px; }
   .banner { min-height: 420px; background-position: right center; }
+  .banner-about { background-position: 80% center; }
   .hero-contact-card { padding: 32px 24px; }
 }
 @media (max-width: 500px) {
