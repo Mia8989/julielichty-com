@@ -895,7 +895,7 @@ input[type="submit"]:hover {
 
 /* ---------- Legacy navy hero (kept in case other pages use it) ---------- */
 .hero-navy {
-  background: var(--color-navy) url('/assets/images/header-banner-background.png') center/cover no-repeat;
+  background: var(--color-navy) url('/julielichty-com/assets/images/header-banner-background.png') center/cover no-repeat;
   color: #fff;
   min-height: 640px;
   padding: 0;
@@ -954,16 +954,17 @@ input[type="submit"]:hover {
 }
 @media (max-width: 700px) {
   .hero-navy {
-    grid-template-columns: 1fr;
-    min-height: auto;
+    grid-template-columns: 1fr 1fr;
+    min-height: 480px;
   }
-  .hero-navy .hero-text { padding: 48px 24px 40px; order: 2; }
-  .hero-navy .hero-image { min-height: 360px; order: 1; }
+  .hero-navy .hero-text { padding: 32px 12px 32px 20px; }
+  .hero-navy .hero-stack { font-size: clamp(1.6rem, 7vw, 2.4rem); }
+  .hero-navy .hero-image { min-height: 480px; }
 }
 
 /* ---------- Contact page navy hero ---------- */
 .hero-contact {
-  background: var(--color-navy) url('/assets/images/header-banner-background.png') center/cover no-repeat;
+  background: var(--color-navy) url('/julielichty-com/assets/images/header-banner-background.png') center/cover no-repeat;
   padding: 80px 0 100px;
   position: relative;
   display: flex;
