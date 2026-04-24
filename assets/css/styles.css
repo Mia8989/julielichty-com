@@ -8,42 +8,42 @@
 
 @font-face {
   font-family: "Tablet Gothic";
-  src: url("/assets/fonts/TabletGothic-Light.woff2") format("woff2");
+  src: url("/julielichty-com/assets/fonts/TabletGothic-Light.woff2") format("woff2");
   font-weight: 300;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Tablet Gothic";
-  src: url("/assets/fonts/TabletGothic-Regular.woff2") format("woff2");
+  src: url("/julielichty-com/assets/fonts/TabletGothic-Regular.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Tablet Gothic";
-  src: url("/assets/fonts/TabletGothic-SemiBold.woff2") format("woff2");
+  src: url("/julielichty-com/assets/fonts/TabletGothic-SemiBold.woff2") format("woff2");
   font-weight: 500 600;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Tablet Gothic";
-  src: url("/assets/fonts/TabletGothic-Bold.woff2") format("woff2");
+  src: url("/julielichty-com/assets/fonts/TabletGothic-Bold.woff2") format("woff2");
   font-weight: 700;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Garamond Premier Pro";
-  src: url("/assets/fonts/GaramondPremierPro-Display.otf") format("opentype");
+  src: url("/julielichty-com/assets/fonts/GaramondPremierPro-Display.otf") format("opentype");
   font-weight: 400 500;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Garamond Premier Pro";
-  src: url("/assets/fonts/GaramondPremierPro-ItalicDisplay.otf") format("opentype");
+  src: url("/julielichty-com/assets/fonts/GaramondPremierPro-ItalicDisplay.otf") format("opentype");
   font-weight: 400 700;
   font-style: italic;
   font-display: swap;
