@@ -152,6 +152,7 @@ section { padding: 80px 0; }
   .brand-wordmark img { height: 36px; }
   .container { padding: 0 12px; }
   .site-header .container { padding: 0 4px 0 4px; }
+  .site-footer .container { padding: 0 24px; }
 }
 .nav-toggle {
   display: none;
