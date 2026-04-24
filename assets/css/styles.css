@@ -1173,8 +1173,8 @@ input[type="submit"]:hover {
   .nav-list.is-open { display: flex; }
   .footer-grid { grid-template-columns: 1fr; gap: 32px; }
   .footer-legal { flex-direction: column; gap: 8px; text-align: center; }
-  .banner-card { max-width: 100%; padding: 28px 24px; }
-  .banner { min-height: 440px; }
+  .banner-card { max-width: 72%; padding: 24px 20px; }
+  .banner { min-height: 420px; background-position: right center; }
   .hero-contact-card { padding: 32px 24px; }
 }
 @media (max-width: 500px) {
