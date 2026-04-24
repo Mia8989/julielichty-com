@@ -961,7 +961,7 @@ input[type="submit"]:hover {
     min-height: 260px;
   }
   .hero-navy .hero-text { padding: 24px 12px 24px 20px; align-self: center; }
-  .hero-navy .hero-stack { font-size: clamp(1.6rem, 7vw, 2.4rem); }
+  .hero-navy .hero-stack { font-size: clamp(1.6rem, 7vw, 2.4rem); line-height: 1.35; }
   .hero-navy .hero-image { min-height: 260px; }
   .hero-navy .hero-image img {
     position: absolute;
