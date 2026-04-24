@@ -961,9 +961,15 @@ input[type="submit"]:hover {
   .hero-navy .hero-stack { font-size: clamp(1.6rem, 7vw, 2.4rem); }
   .hero-navy .hero-image { min-height: 480px; }
   .hero-navy .hero-image img {
-    right: auto;
+    position: absolute;
+    bottom: 0;
     left: 50%;
+    right: auto;
     transform: translateX(-50%);
+    height: auto;
+    width: 100%;
+    max-height: 100%;
+    object-fit: contain;
     object-position: bottom center;
   }
 }
