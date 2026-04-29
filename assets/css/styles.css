@@ -184,7 +184,7 @@ section { padding: 80px 0; }
 /* ---------- Banner (signature block) ---------- */
 .banner {
   position: relative;
-  min-height: 680px;
+  min-height: 540px;
   padding: 0;
   display: flex; align-items: center;
   background-size: cover;
@@ -900,7 +900,7 @@ input[type="submit"]:hover {
 .hero-navy {
   background: var(--color-navy) url('/julielichty-com/assets/images/header-banner-background.png') center/cover no-repeat;
   color: #fff;
-  min-height: 640px;
+  min-height: 520px;
   padding: 0;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -936,7 +936,7 @@ input[type="submit"]:hover {
   position: relative;
   width: 100%;
   align-self: stretch;
-  min-height: 640px;
+  min-height: 520px;
   overflow: hidden;
 }
 .hero-navy .hero-image img {
@@ -953,7 +953,8 @@ input[type="submit"]:hover {
 @media (max-width: 900px) and (min-width: 701px) {
   .hero-navy .hero-text { padding: 40px 28px 40px 40px; }
   .hero-navy .hero-stack { font-size: clamp(2.6rem, 9vw, 5rem); }
-  .hero-navy .hero-image { min-height: 520px; }
+  .hero-navy { min-height: 400px; }
+  .hero-navy .hero-image { min-height: 400px; }
 }
 @media (max-width: 700px) {
   .hero-navy {
@@ -987,12 +988,11 @@ input[type="submit"]:hover {
   align-items: center;
 }
 .hero-contact-card {
-  background: var(--color-card-contact);
+  background: transparent;
   padding: 44px 72px 44px clamp(24px, 7vw, 120px);
   max-width: 820px;
   width: 100%;
   margin-left: 0;
-  box-shadow: 0 4px 20px rgba(0,0,0,.18);
 }
 .hero-contact-card h1 {
   font-family: var(--font-serif-italic);
@@ -1001,8 +1001,28 @@ input[type="submit"]:hover {
   font-size: clamp(2.4rem, 6vw, 76px);
   letter-spacing: 4px;
   line-height: 1;
-  color: var(--color-ink);
+  color: #ffffff;
   margin: 0;
+}
+
+/* ---------- Clean navy title hero (FAQ, Contact — white italic h1, no card) ---------- */
+.hero-page-title {
+  background: var(--color-navy) url('/julielichty-com/assets/images/header-banner-background.png') center/cover no-repeat;
+  padding: 80px 24px 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.hero-page-title h1 {
+  font-family: var(--font-serif-italic);
+  font-style: italic;
+  font-weight: 600;
+  font-size: clamp(3rem, 6vw, 5.5rem);
+  color: #ffffff;
+  margin: 0;
+  letter-spacing: 2px;
+  line-height: 1.1;
 }
 
 /* ---------- About page "About Me" card ---------- */
@@ -1168,6 +1188,8 @@ input[type="submit"]:hover {
   .two-col.reverse .col-text { order: 0; }
   .tripod { grid-template-columns: 1fr; }
   .banner-card { max-width: 520px; padding: 34px 36px; }
+  .banner { min-height: 420px; }
+  .hero-contact { padding: 60px 0 72px; }
 }
 @media (max-width: 700px) {
   .nav-toggle { display: inline-block; }
@@ -1189,6 +1211,8 @@ input[type="submit"]:hover {
   .banner { min-height: 420px; background-position: right center; }
   .banner-about { background-position: 80% center; }
   .hero-contact-card { padding: 32px 24px; }
+  .hero-page-title { padding: 60px 24px 72px; }
+  .hero-page-title h1 { letter-spacing: 1px; }
 }
 @media (max-width: 500px) {
   .banner { min-height: 380px; }
