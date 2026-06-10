@@ -25,13 +25,19 @@ jobs:
           find deploy -type f \( -name "*.html" -o -name "*.css" -o -name "*.js" \) \
             -exec sed -i 's|/julielichty-com/|/|g' {} +
 
+      - name: Install lftp
+        run: sudo apt-get install -y lftp
+
       - name: Deploy via SFTP
-        uses: wangyucode/sftp-upload-action@v2.0.2
-        with:
-          host: ${{ secrets.KINSTA_HOST }}
-          port: ${{ secrets.KINSTA_PORT }}
-          username: ${{ secrets.KINSTA_USERNAME }}
-          password: ${{ secrets.KINSTA_PASSWORD }}
-          localDir: 'deploy/'
-          remoteDir: '/www/julielichty_299/public/'
-          dryRun: false
+        env:
+          SFTP_HOST: ${{ secrets.KINSTA_HOST }}
+          SFTP_PORT: ${{ secrets.KINSTA_PORT }}
+          SFTP_USER: ${{ secrets.KINSTA_USERNAME }}
+          SFTP_PASS: ${{ secrets.KINSTA_PASSWORD }}
+        run: |
+          lftp -u "$SFTP_USER,$SFTP_PASS" \
+            -e "set sftp:connect-program 'ssh -o StrictHostKeyChecking=no'; \
+                set net:max-retries 3; \
+                mirror --reverse --parallel=4 ./deploy/ /www/julielichty_299/public/; \
+                quit" \
+            sftp://$SFTP_HOST:$SFTP_PORT
