@@ -34,4 +34,4 @@ jobs:
           password: ${{ secrets.KINSTA_PASSWORD }}
           localDir: 'deploy/'
           remoteDir: '/www/julielichty_299/public/'
-          forceUpload: true
+          dryRun: false
