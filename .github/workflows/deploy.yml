@@ -38,6 +38,14 @@ jobs:
           lftp -u "$SFTP_USER,$SFTP_PASS" \
             -e "set sftp:connect-program 'ssh -o StrictHostKeyChecking=no'; \
                 set net:max-retries 3; \
+                rm -f /www/julielichty_299/public/about; \
+                rm -f /www/julielichty_299/public/assets; \
+                rm -f /www/julielichty_299/public/blog; \
+                rm -f /www/julielichty_299/public/coaching; \
+                rm -f /www/julielichty_299/public/contact; \
+                rm -f /www/julielichty_299/public/faq; \
+                rm -f /www/julielichty_299/public/speaking; \
+                rm -f /www/julielichty_299/public/testimonials; \
                 mirror --reverse --parallel=4 ./deploy/ /www/julielichty_299/public/; \
                 quit" \
             sftp://$SFTP_HOST:$SFTP_PORT
